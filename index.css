@@ -1,0 +1,162 @@
+
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  .fa {
+    margin: 0 7px;
+  }
+
+
+  header,
+  .contact,
+  .social {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+  }
+
+  header {
+    background-color: black;
+    color: white;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+    justify-content: space-between;
+
+  }
+
+  .social .fab {
+    color: orange;
+  }
+
+  @media screen and (max-width: 800px) {
+
+    header,
+    .contact {
+      justify-content: center;
+    }
+  }
+
+  .contact {
+    gap: 0.8rem;
+  }
+
+
+
+  .material-icons {
+    font-size: 0.9rem;
+    margin: 0 5px;
+  }
+
+  .book .btn {
+    background-color: orange;
+    color: white;
+    border: 1px solid transparent;
+  }
+
+  .navbar-brand img {
+    width: 5rem;
+  }
+
+  .navbar ul {
+    font-size: larger;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  .carousel-item img {
+    height: 28rem;
+  }
+
+
+  .places img {
+    border-radius: 10px;
+    width: 16rem;
+    margin-bottom: 1rem;
+  }
+
+  .logo-brand-img img {
+    width: 80%;
+  }
+
+  .booknow {
+    background-color: rgba(255, 166, 0, 0.445);
+    padding: 10rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .book-form input,
+  select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+    width: 40%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  @media screen and (max-width: 800px) {
+    .carousel-item img {
+      height: 80%;
+    }
+
+    .booknow {
+      padding: 0;
+    }
+
+    .logo-brand-img img {
+      width: 100%;
+    }
+
+    input[type=submit] {
+      padding: 10px;
+      margin-top: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .navbar-brand img {
+      width: 50px;
+    }
+  }
+
+  .navbar-toggler {
+    background-color: rgba(255, 166, 0, 0.568);
+    padding: 2px;
+    font-size: large;
+    color: rgb(245, 183, 11);
+  }
+
+  .navbar-toggler:hover {
+    background-color: rgb(255, 166, 0);
+
+  }
