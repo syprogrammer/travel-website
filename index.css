@@ -78,7 +78,9 @@
   .carousel-item img {
     height: 28rem;
   }
-
+.places .card{
+  width: 18rem;
+}
 
   .places img {
     border-radius: 10px;
@@ -146,6 +148,9 @@
 
     .navbar-brand img {
       width: 50px;
+    }
+    .places .card{
+      width: 22rem;
     }
   }
 
